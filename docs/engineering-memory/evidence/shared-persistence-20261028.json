@@ -1,0 +1,22 @@
+{
+  "name": "my-agent-project",
+  "repository": "borvat/my-agent-project",
+  "branch": "feature/bmad-unified-memory-20261028",
+  "head": "1b7f9192b94641a52cce0421a96a87c29b9f2b81",
+  "expected_head": "1b7f9192b94641a52cce0421a96a87c29b9f2b81",
+  "tree": "7da6a8db70e0afc40816f5831369b5e16cf1557a",
+  "pr": "https://github.com/borvat/my-agent-project/pull/1",
+  "pr_number": 1,
+  "draft": true,
+  "merged": false,
+  "state": "open",
+  "base_branch": "main",
+  "verified_paths": 22,
+  "failed_paths": [],
+  "pass": true,
+  "verified_utc": "2026-10-27T23:51:43.714482+00:00",
+  "authorization": "Owner explicitly approved reviewed payloads, isolated branch upload and Draft PRs; no merge/deployment.",
+  "scope": "Authenticated initial publication readback of all reviewed changed blobs and open Draft PR. This receipt precedes the following evidence/state-only commit.",
+  "code_helper_sha256": "ac42c9c53dbafc43ebefcb65a4b79c40421369527318e6e610140bd285796911",
+  "test_limits": "Existing independent frozen-helper and disposable ordinary-session evidence remains source/hash-bound and historical; no tests on a different commit or live application are inferred."
+}

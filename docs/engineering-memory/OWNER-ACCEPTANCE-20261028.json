@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "repository": "borvat/my-agent-project",
+  "pr": 1,
+  "decision": "READY FOR OWNER APPROVAL",
+  "meaning": "Technical recommendation only; no owner authorization, formal GitHub approval, main/master merge or operational delivery.",
+  "reviewed_parent_head": "1ff221cd628eabc8f421642cb0e9b062272095b5",
+  "current_base_branch": "main",
+  "current_base_head": "3341b27b7a65c332805133b6048cc6da0c8fd147",
+  "head_and_base_unchanged_since_prior_final_readback": true,
+  "initial_full_pr_changed_files": [
+    {
+      "path": ".project-memory.json",
+      "status": "added",
+      "git_blob": "97660bb72880efcf741330c637e373d7e10da73f",
+      "sha256": "61104b0eb00e20b20a459bd6626c53d8e68d54493762012e9ef8075ea203c3e2"
+    },
+    {
+      "path": "AGENTS.md",
+      "status": "added",
+      "git_blob": "36f8ba7283ee889c4937f26a08c8d8cfca220a8b",
+      "sha256": "07ed399caa4ada79d872959a6723f14cf5a9eb581208b7cbbdba65f2b817acb1"
+    },
+    {
+      "path": "_bmad/.gitignore",
+      "status": "added",
+      "git_blob": "35d296823d4384f7725d113b5fe95b2009551f43",
+      "sha256": "64f581717b03197c835ab4edf1d3b582946a26dc84c6067a2e8d67b825eaaef8"
+    },
+    {
+      "path": "_bmad/config.toml",
+      "status": "added",
+      "git_blob": "ced54afec838f876ff0c48054cefeca58f1affd1",
+      "sha256": "6b43eccf813be81e43bdd1ef524d403eb9dfdb3d050589aeb97003373d3df3b1"
+    },
+    {
+      "path": "_bmad/custom/.gitignore",
+      "status": "added",
+      "git_blob": "42d7bc633210ae45f75aa6ed63e2cb7d6dc016ee",
+      "sha256": "973b03a33f142c22cf9b65be285bebadd85790b6b55be04637d2f8c716f58fab"
+    },
+    {
+      "path": "_bmad/custom/bmad-build.toml",
+      "status": "added",
+      "git_blob": "c8a72ec7ec704b260e03d6e375c03900b49d8f6d",
+      "sha256": "5f58a2e84fe198a3ed0a98ae3167f87fbde22488437d18ff1f5b76bf55473c5f"
+    },
+    {
+      "path": "docs/engineering-memory/BASELINE.json",
+      "status": "added",
+      "git_blob": "5661e86721a4fd87edf50542d4932061bc09de8a",
+      "sha256": "c4d031d4f35a95e4dde1c0aaa9d9af88563ee73c5ed07ef6745ffcfd807942b3"
+    },
+    {
+      "path": "docs/engineering-memory/FINAL-ACCEPTANCE-20261028.md",
+      "status": "added",
+      "git_blob": "96e95cd592d01c11c82cfe5b613e3f9148a5edcb",
+      "sha256": "7ba56136d883250d1d6ed8b820623d5a3282e6c95859e55b977636ee5291fdea"
+    },
+    {
+      "path": "docs/engineering-memory/HISTORY.md",
+      "status": "added",
+      "git_blob": "c5e05c4680f0e848562b0dbee9d4fd2979868175",
+      "sha256": "c16de7bcebd56529c226b84a03f3509fdcb4b06ba779d212f79900b2aab34c3c"
+    },
+    {
+      "path": "docs/engineering-memory/LEARNING.md",
+      "status": "added",
+      "git_blob": "a992733fe261da88494b21b1249cbaa5b1dba9c5",
+      "sha256": "5fa7346374a00539c03c0a71afcb62fd6fbba5859ec9b53a2a45257b677d19e3"
+    },
+    {
+      "path": "docs/engineering-memory/POLICY.md",
+      "status": "added",
+      "git_blob": "18b4dae4b324e3f2001339940caf1e493aa28983",
+      "sha256": "5baf9d572e85fcde6436f5683241e18358a3badaa170b5606dcf56a36b989511"
+    },
+    {
+      "path": "docs/engineering-memory/PROJECT_STATE.md",
+      "status": "added",
+      "git_blob": "9302e06a2445e57215e48706129fb3482f3ecb7b",
+      "sha256": "18e4a82b788800bc29713ae9b1f759c4fede3ad316120556218fff90a20aa447"
+    },
+    {
+      "path": "docs/engineering-memory/README.md",
+      "status": "added",
+      "git_blob": "55d94dbec6aaffe5427440608f411099615818b3",
+      "sha256": "27e4348faa6233b9e792f8e55bd121040406d0b15eee2727cabb75c897abae0b"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/adoption-quick-review-20261028.json",
+      "status": "added",
+      "git_blob": "ffbc32bec495b3913195602629b9b73de63e0727",
+      "sha256": "90ac99339ee176ad05aa098177d8909ac95c8c6b127ba132b7ab311b2182fd59"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/adoption-review-20261028.json",
+      "status": "added",
+      "git_blob": "2c36df9568c8bd390eacf8de35f923e0321559c3",
+      "sha256": "6ad2c21065a8185e853a010e079d5a7c00d597c09d7111e30f48420a670bb08b"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/final-status.json",
+      "status": "added",
+      "git_blob": "64aaa700c700053c6585819d455e7c3d765917ad",
+      "sha256": "0424f2d4a36861c1d1b45793507a2ea7534791b4d121214d6beb8532a213d101"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/normal-adoption-acceptance-20261028.json",
+      "status": "added",
+      "git_blob": "36577181540bfaa3fbcd9fba4e305be810126c28",
+      "sha256": "08fdd3d86caabbf9d218f931b19c565fcf1a346dc1cf27fa448209cfb06d1135"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/ordinary-acceptance.json",
+      "status": "added",
+      "git_blob": "93353affd9bc55a61dc16a2f6d0632d04033e535",
+      "sha256": "308c9570bb2c0c8dc6968a9cc4f1c75fb13bf204ea58251d52e3d1bcc1629865"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/parent-ordinary-readback.json",
+      "status": "added",
+      "git_blob": "e1873d502cbde7a0b3dad3afd4a36b4c369284fd",
+      "sha256": "becf5d6466fa6a68c02483ce1d67047afcc322d16c33f88d64adc8025f4ff3d9"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/repository-checks.json",
+      "status": "added",
+      "git_blob": "2a181a079ca2191559b5353360df6977a612526a",
+      "sha256": "c681455393e2b4b3874d206d1733c357fbdb07a6d2eea6da0affc5b0b97c0a9b"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/reviewed-helper.json",
+      "status": "added",
+      "git_blob": "961bf1271991d722b7cdfbf787d92acb330b0760",
+      "sha256": "a9414f8b8ff25ea122281aaf746e869009356aedfd4d9852dcbb17959e7d9a52"
+    },
+    {
+      "path": "docs/engineering-memory/evidence/shared-persistence-20261028.json",
+      "status": "added",
+      "git_blob": "91e8b04fa60ff37b5801a16198c1eb97b2f10ad5",
+      "sha256": "b78e5dddb42d2e6315f83f24afb8d5b09b4c9cb94fef73d598a0126b04fb98fd"
+    },
+    {
+      "path": "docs/engineering-memory/lessons.jsonl",
+      "status": "added",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/agent_learning/test_engineering_learning.py",
+      "status": "added",
+      "git_blob": "dd8883459769ca3e4d13d556b901625b51ceea48",
+      "sha256": "3afa8da2c818bbc670dab1fb1fefbe2908a3969de9b292b59245fe806c20d03b"
+    },
+    {
+      "path": "tests/project_memory/test_memory.py",
+      "status": "added",
+      "git_blob": "de7ce369fa4c325b94ddd015e0dd17f5daf9d9cc",
+      "sha256": "0dfe9e2441a50d9568e040e2e6490dca8a4c25167251b015b81fe7707b37093f"
+    },
+    {
+      "path": "tools/agent_learning.py",
+      "status": "added",
+      "git_blob": "bde3b41cef68cf3a1e2f5da0f7667b8384a43b4a",
+      "sha256": "679a3fe7a3404c33c57f19dfeba4bc3adeeb30333c8453bc35f966129048eada"
+    },
+    {
+      "path": "tools/project_memory.py",
+      "status": "added",
+      "git_blob": "cee5ec731045a290f5a7a2b555afb9f7c1e231b3",
+      "sha256": "ac42c9c53dbafc43ebefcb65a4b79c40421369527318e6e610140bd285796911"
+    }
+  ],
+  "initial_changed_file_count": 27,
+  "scope": "Engineering-memory adapters and evidence only",
+  "base_ancestor_and_clean_github_mergeability": true,
+  "independent_review": {
+    "reviewer": "four_final_review",
+    "changed_blobs_independently_authenticated": 27,
+    "result": "No blocking runtime or security findings",
+    "historical_receipts": "Prior evidence retains original source identities; it is not a new application/runtime PASS."
+  },
+  "security": {
+    "credentials_or_personal_records_observed": false,
+    "fixture_email_matches": "Synthetic reserved-domain test addresses only",
+    "other_pattern_triage": "Local task paths and policy terminology are not credential literals; no values or raw traces copied into this report.",
+    "application_dependency_workflow_permission_files_changed": false,
+    "unnecessary_service_or_cost_added": false,
+    "candidate_auto_activation_or_promotion": false,
+    "operational_sam_memory_or_goal_state_changed": false
+  },
+  "github_controls": {
+    "checks": 0,
+    "statuses": 0,
+    "formal_reviews": 0,
+    "ci_pass_claim": false,
+    "target_protected": false,
+    "listed_required_status_contexts": [],
+    "detailed_protection_read": "Branch metadata unprotected; owner still explicitly excludes main/master merges"
+  },
+  "rollback": {
+    "recommended_merge_strategy": "Standard merge commit; repository permits it. No merge performed.",
+    "action_after_separately_authorized_merge": "Create a reviewed development-branch revert of the actual merge commit using parent1; preserve earlier application work and evidence. No force/reset.",
+    "known_premerge_base": "3341b27b7a65c332805133b6048cc6da0c8fd147"
+  },
+  "order": "No cross-repository merge dependency. Owner may follow requested priority SAM, Brain, My Agent, Smart, Public Pages.",
+  "archive_boundary": "Neither raw nor redacted ZIP uploaded or reopened. Existing non-sensitive summaries and reference hash suffice.",
+  "reference_redacted_sha256": "fa9152342893bf3dab36a52d2763e4c79ff4c4831ba6966a387dfd7a208aceb8",
+  "reference_redaction_commit": "15c00fa8cec23133928fa422b0a9460fea908f7e",
+  "tests": {
+    "current_read_audit_brief": "PASS; real ledger empty and candidates inactive",
+    "python_socket_and_nonlocal_process_denial": [
+      {
+        "command": "resume",
+        "exit_code": 0,
+        "socket_attempts": 0,
+        "denied_process_attempts": 0,
+        "local_git_commands": 10
+      },
+      {
+        "command": "audit",
+        "exit_code": 0,
+        "socket_attempts": 0,
+        "denied_process_attempts": 0,
+        "local_git_commands": 0
+      },
+      {
+        "command": "brief",
+        "exit_code": 0,
+        "socket_attempts": 0,
+        "denied_process_attempts": 0,
+        "local_git_commands": 0
+      }
+    ],
+    "scope_limit": "Dynamic Python socket and subprocess denial for current helper read paths; not an OS-wide malicious-code sandbox or setup/network claim.",
+    "helper_sha256": "ac42c9c53dbafc43ebefcb65a4b79c40421369527318e6e610140bd285796911",
+    "helper_test_sha256": "0dfe9e2441a50d9568e040e2e6490dca8a4c25167251b015b81fe7707b37093f",
+    "prior_regressions_reused": 28,
+    "prior_independent_scenarios_reused": 14,
+    "reuse_reason": "Exact unchanged helper/test code and compatible conditions; historical source identities preserved. No repetition of full suites.",
+    "original_activation_wiring": "Existing verified original setup/render evidence retained with unchanged customization/helper identities."
+  }
+}

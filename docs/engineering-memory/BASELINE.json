@@ -1,0 +1,58 @@
+{
+  "observed_at": "2026-10-28",
+  "repository": "borvat/my-agent-project",
+  "base_branch": "main",
+  "base_head": "3341b27b7a65c332805133b6048cc6da0c8fd147",
+  "base_tree": "16b1982256958ccfe0d8d04bea3ae8735c3c2b12",
+  "type": "experimental scripts",
+  "adaptation": "full-engineering",
+  "context": {
+    "purpose": "Early guarded scripts for a one-call relay reviewer and StockitUp seller discovery.",
+    "architecture": [
+      "Two standalone Python scripts; the reviewer requires provider key, explicit confirmation and phase2_test environment before one model request.",
+      "StockitUp discovery requires --confirm-get and environment credentials before a GET; no local application or test framework is present."
+    ],
+    "modules": [
+      "phase2d_one_call/one_call_reviewer.py",
+      "stockitup_discovery.py",
+      "stockitup_llm.txt"
+    ],
+    "current_state": "Default main inspected at 3341b27b7a65c332805133b6048cc6da0c8fd147 (tree16b1982256958ccfe0d8d04bea3ae8735c3c2b12), five tree entries. Source exists; no current test pass, external connectivity or deployment is established.",
+    "verified_features": [
+      "Source inspection confirms explicit call preflights in both scripts; their runtime effectiveness was not tested here."
+    ],
+    "blockers": [
+      "No unit-test harness or source-bound prior acceptance evidence was found.",
+      "External provider/API calls require separately valid authority and credentials and are unnecessary for this engineering-memory task."
+    ],
+    "decisions": [
+      "Treat as code-eligible with a simplified engineering-memory mechanism and offline fixture; keep all model/StockitUp call preflights unchanged.",
+      "Do not execute the real scripts merely to test archival/resume behavior."
+    ],
+    "unfinished": [
+      "Offline regression/engineering-memory acceptance and any real integration acceptance are separate open items."
+    ],
+    "next_step": "Add lightweight engineering state/history, ordinary-build activation and deterministic offline fixtures in an isolated branch without external requests.",
+    "evidence_paths": [
+      "phase2d_one_call/one_call_reviewer.py",
+      "stockitup_discovery.py"
+    ],
+    "state_path": "docs/engineering-memory/PROJECT_STATE.md",
+    "history_path": "docs/engineering-memory/HISTORY.md"
+  },
+  "inspected_sources": [
+    {
+      "path": "phase2d_one_call/one_call_reviewer.py",
+      "blob_sha": "e55feef01203cea3bed2e8b376455bdd480dca26",
+      "error": false,
+      "url": "https://github.com/borvat/my-agent-project/blob/3341b27b7a65c332805133b6048cc6da0c8fd147/phase2d_one_call/one_call_reviewer.py"
+    },
+    {
+      "path": "stockitup_discovery.py",
+      "blob_sha": "6424c2b7807dcf9617b41bd940b2d2ea17dbfcf6",
+      "error": false,
+      "url": "https://github.com/borvat/my-agent-project/blob/3341b27b7a65c332805133b6048cc6da0c8fd147/stockitup_discovery.py"
+    }
+  ],
+  "limits": "Source inspection and historical reports only; no new native tests or deployment observed."
+}
